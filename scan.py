@@ -43,11 +43,17 @@ if select == "a":
                  status.status_scan(files_scanned,folders_scanned,threats_detected,threats_cleaned)
 
     print("Scanning Completed ...!")
-    # TODo Save Log
+        # TODo Save Log
+	# TODo Save Log
+	# TODo Save Log
+	# TODo Save Log
     print("Details Saved ...!")
 
 elif select == "b":
-    # <--------Todo----->
+# <--------Log Todo----->
+# <--------Log Todo----->
+# <--------Log Todo----->
+# <--------Log Todo----->
     pass
 
 elif select == "x":
