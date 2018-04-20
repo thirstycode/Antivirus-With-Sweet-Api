@@ -1,6 +1,9 @@
 import requests
 import json
 from config import api_key
+
+# <----API for VirusTotal report by md5 hash------->
+
 class Virustotal():
 	def __init__(self):
 		self.host = "www.virustotal.com"
@@ -12,12 +15,11 @@ class Virustotal():
 		parameters = {"resource":rsc, "apikey":self.apikey}
 		r = requests.post(base, data=parameters)
 		resp = r.json()
-		results = parse_resp(resp)
+		results = parse_response(resp)
 		return results
 
-def parse_resp(resp):
+def parse_response(resp):
 	buf = {}
 	for item in resp:
 		buf[item] = resp[item]
-
 	return buf
