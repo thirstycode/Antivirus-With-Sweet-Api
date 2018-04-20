@@ -1,10 +1,10 @@
 import os
 import pandas
 import win32api
-import md5_generate
-import status
-import quarantinate
-from connect import *
+import support.md5_generate
+import support.status
+import support.quarantinate
+from support.connect import *
 
 folders_scanned=1
 files_scanned=0
