@@ -11,10 +11,6 @@ files_scanned=0
 threats_detected = 0
 threats_cleaned = 0
 
-file = pandas.read_csv("database_total.csv",low_memory=False)
-virus_md5 = file["md5"].tolist()
-virus_name = file["name"]
-
 select = input("Antivirus\n[a] Start Scan\n[b] See Scan Log\n[x] Exit\nSelection: ")
 if select == "a":
     select1 = input("Choice\n[a] Full Scan\n[b] Custom Scan\nSelection: ")
@@ -36,11 +32,8 @@ if select == "a":
                  files_scanned += 1
                  md5_key = md5_generate.md5(os.path.join(root,filename))
                  percent_threat = connect(md5_key)
-                 # print(md5_key)
-                 print("Threat Percent : " + str(percent_threat))
-                 if md5_key in virus_md5:
-                     threats_detected += 1
-                     # threats_cleaned = quarantinate.delete(os.path.join(root,filename),threats_cleaned)
+                 if int(percent_threat) > 10 :
+                     threats_cleaned = quarantinate.delete(os.path.join(root,filename),threats_cleaned)
                  else:
                      pass
                     # print("virus not found")
