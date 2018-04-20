@@ -1,5 +1,9 @@
 import os
 import socket
+
+# deleting infected files
+# you can modify this creating own quarantinate folder and storing all those infected files rather than deleting them
+
 def delete(file_loc,threats_cleaned):
     try:
         if os.path.isfile(file_loc):
