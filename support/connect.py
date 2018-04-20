@@ -1,6 +1,8 @@
 from support.api import *
 import time
 
+# <===using api ,finding threat percentage upon scanning all major antivirus softwares====>
+
 def connect(hash):
     try:
         v = Virustotal()
