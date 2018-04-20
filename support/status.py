@@ -1,5 +1,8 @@
 import sys
 
+# printing the antivirus scannning status
+# make sure you dont any of line , or else the antivirus will look boring for you :P
+
 loopcount=1
 
 def restart_line():
