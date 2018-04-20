@@ -1,4 +1,7 @@
 import hashlib
+
+# finding md5 hash of file
+
 def md5(file_loc):
     try:
         hasher = hashlib.md5()
@@ -7,6 +10,6 @@ def md5(file_loc):
             hasher.update(buf)
         return hasher.hexdigest()
     except PermissionError:
-        pass
+        pass                                   #you can change this or improve this with your need
     except MemoryError:
-        pass
+        pass                                   #you can change this or improve this with your need
