@@ -1,4 +1,4 @@
-from api import *
+from support.api import *
 import time
 
 def connect(hash):
