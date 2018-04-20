@@ -10,4 +10,4 @@ def connect(hash):
         return 0
     except json.decoder.JSONDecodeError:
         time.sleep(60)
-        return -1
+        return connect(hash)
