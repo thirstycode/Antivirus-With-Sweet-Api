@@ -1,11 +1,11 @@
 import requests
 import json
-
+from config import api_key
 class Virustotal():
 	def __init__(self):
 		self.host = "www.virustotal.com"
 		self.base = "https://www.virustotal.com/vtapi/v2/"
-		self.apikey = "0773f9eab42b642539f2b753fbd77e86b63445a507c6584f1bbb5194a06ccd86"
+		self.apikey = api_key
 
 	def rscReport(self, rsc):
 		base = self.base + 'file/report'
