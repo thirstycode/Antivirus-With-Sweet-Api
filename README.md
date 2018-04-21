@@ -30,7 +30,7 @@
   - This Antivirus Will Never Expire. 😃
   - It'll Always Be Updated Since VirustTotal Is Always Updated
   - It Can Detect All Malwares, Viruses, Trojans , everything 😃
-- Cons :
+- Con's :
   -BIG unfortunate update : VirusTotal API has been restricted to 5 back to back scans. So I have added wait time of 60 seconds after every 5th file scanned.
   - I suggest you to use this script to scan for specific folders rather than to scanning whole computer as it'll take much time
 - Get log reports is TODO in script.
