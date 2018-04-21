@@ -2,7 +2,6 @@
 
 # importing neccessary modules
 import os
-import pandas
 import win32api
 import support.md5_generate
 import support.status
