@@ -21,3 +21,17 @@
 * Goto ApiKey Section OR Just click [here !](https://www.virustotal.com/#/settings/apikey).
 * Copy your API key and paste in config.py
 
+#### Execute It:
+```bash
+1. python scan.py
+```
+## Disclaimer :
+- Pro's :
+  - This Antivirus Will Never Expire. 😃
+  - It'll Always Be Updated Since VirustTotal Is Always Updated
+  - It Can Detect All Malwares, Viruses, Trojans , everything 😃
+- Cons :
+  -BIG unfortunate update : VirusTotal API has been restricted to 5 back to back scans. So I have added wait time of 60 seconds after every 5th file scanned.
+  - I suggest you to use this script to scan for specific folders rather than to scanning whole computer as it'll take much time
+- Get log reports is TODO in script.
+- PS : I'm not responsible for any harm to your computer ¯\_(ツ)_/¯ 😜
