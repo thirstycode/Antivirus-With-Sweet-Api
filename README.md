@@ -31,7 +31,8 @@
   - It'll Always Be Updated Since VirustTotal Is Always Updated
   - It Can Detect All Malwares, Viruses, Trojans , everything 😃
 - Con's :
-  -BIG unfortunate update  VirusTotal API has been restricted to 5 back to back scans. So I have added wait time of 60 seconds after every 5th file scanned.
+  - BIG unfortunate update : VirusTotal API has been restricted to 5 back to back scans.
+  - So I have added wait time of 60 seconds after every  5th file scanned.
   - I suggest you to use this script to scan for specific folders rather than to scanning whole computer as it'll take much time
 - Get log reports is TODO in script.
-- PS : I'm not responsible for any harm to your computer ¯\_(ツ)_/¯ 😜
+- PS : I'm not responsible for any harm to your computer [¯\_(ツ)_/¯](https://github.com/thirstycode/antivirus-with-sweet-api) 😜
