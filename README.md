@@ -2,8 +2,8 @@
 [![built with Python3](https://img.shields.io/badge/built%20with-Python3-red.svg)](https://www.python.org/)
 <br>
 <br>
-**Scans The Computer For Viruses With All Antivirus Software's Results**
-**Check Working OF  VirusTotal, You'll Get To Know What I'm Talking About**
+**Scans The Computer For Viruses With All Antivirus Software's Results**<br>
+**Please Check Working OF  VirusTotal, You'll Get To Know What I'm Talking About**
 <br>
 ### Installation:
 
@@ -15,7 +15,9 @@
 ### Getting Your VirusTotal API Key:
 
 
-* git clone https://github.com/thirstycode/antivirus-with-sweet-api
-* cd antivirus-with-sweet-api
-* pip install -r requirements.txt
+* Register For VirusTotal (Free Account) From [Here :](https://www.virustotal.com/#/join-us).
+* After registering login into it.
+* Now go to 'Settings' . Or Just click [here !](https://www.virustotal.com/#/settings/profile).
+* Goto ApiKey Section OR Just click [here !](https://www.virustotal.com/#/settings/apikey).
+* Copy your API key and paste in config.py
 
